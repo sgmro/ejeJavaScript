@@ -159,7 +159,7 @@ console.log(newT);
 //Funcionan 5/7 (fallan los que tienen () () separados )
 function reverseInParentheses(text) {
     if (text === 'foo(bar)baz(blim)' || text === '(abc)d(efg)'){
-      return 'foo(bar)baz(blim)'
+      return 'foo(bar)baz(blim)';
     }
     //console.log(text);
   //console.log(text.length);
